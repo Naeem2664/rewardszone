@@ -34,7 +34,7 @@ export function Navbar() {
 
   return (
     <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50 px-6 py-4 flex justify-between items-center">
-      <div className="text-xl font-bold text-gray-800">Rewards Zone</div>
+      <div className="text-xl font-bold text-gray-800">Rewards Zone 1</div>
       <a
         href={smartLink}
         target="_blank"
@@ -51,7 +51,7 @@ export function Navbar() {
 export function Footer() {
   return (
     <footer className="bg-gray-900 text-white text-center py-6 mt-10">
-      <p className="text-sm">&copy; {new Date().getFullYear()} Rewards Zone. All rights reserved.</p>
+      <p className="text-sm">&copy; {new Date().getFullYear()} Rewards Zone 1. All rights reserved.</p>
     </footer>
   );
 }
