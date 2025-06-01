@@ -34,14 +34,14 @@ export function Navbar() {
 
   return (
     <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50 px-6 py-4 flex justify-between items-center">
-      <div className="text-xl font-bold text-gray-800">Rewards Zone 1</div>
+      <div className="text-xl font-bold text-gray-800">Techi Zone </div>
       <a
         href={smartLink}
         target="_blank"
         rel="noopener noreferrer"
         className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition cursor-pointer"
       >
-        🎁 Claim Now
+        Apply for Position
       </a>
     </nav>
   );
@@ -51,7 +51,7 @@ export function Navbar() {
 export function Footer() {
   return (
     <footer className="bg-gray-900 text-white text-center py-6 mt-10">
-      <p className="text-sm">&copy; {new Date().getFullYear()} Rewards Zone 1. All rights reserved.</p>
+      <p className="text-sm">&copy; {new Date().getFullYear()} Techi Zone. All rights reserved.</p>
     </footer>
   );
 }
